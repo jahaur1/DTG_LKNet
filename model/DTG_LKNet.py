@@ -11,7 +11,6 @@ from time import time
 import shutil
 import argparse
 import configparser
-from tensorboardX import SummaryWriter
 import copy
 import os
 from sklearn.metrics import mean_absolute_error
@@ -21,14 +20,13 @@ import copy
 import math
 from scipy import sparse as sp
 from utils.utils import clones
-from .soft_dtw_cuda import SoftDTW
 from .LKMS_Conv import LKMS_Conv
 
 
 class TCNs(nn.Module):
     def __init__(self, dropout=0.1, in_dim=1, hid_dim=64,cnn_layers=4, group=4):
         super(TCNs, self).__init__()
-        self.LKMS_Conv=LKMS_Conv(c_in=307,seq_len=144,context_window=144,patch_len=12,stride=12,n_layers=6,dw_ks=[15,17,21,27,35,55],d_model=64,d_ff=256,norm='batch',dropout=0.,act="gelu",padding_patch=None)
+        self.LKMS_Conv=LKMS_Conv(c_in=307,seq_len=144,context_window=144,patch_len=12,stride=12,n_layers=6,dw_ks=[15,17,21,27,35,55],d_model=64,d_ff=256,norm='batch',dropout=0.,act="gelu",padding_patch=None,deformable=True)
 
     def forward(self, input):#1,307,144,1
         input=input.squeeze(-1)

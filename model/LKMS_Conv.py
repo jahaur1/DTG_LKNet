@@ -5,11 +5,11 @@ import torch
 from torch import nn
 from torch import Tensor
 import torch.nn.functional as F
-
+from Patch_layers import *
 
 class LKMS_Conv(nn.Module):
     def __init__(self, c_in: int, seq_len: int, context_window: int, patch_len: int, stride: int,
-                 n_layers: int = 6, dw_ks=[9, 11, 15, 21, 29, 39], d_model=64, d_ff: int = 256, norm: str = 'batch',
+                 n_layers: int = 6, dw_ks=[9,11,15,21,29,39], d_model=64, d_ff: int = 256, norm: str = 'batch',
                  dropout: float = 0., act: str = "gelu",
                  padding_patch=None, deformable=False, enable_res_param=True, re_param=True, re_param_kernel=3):
 

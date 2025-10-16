@@ -5,7 +5,7 @@ import torch
 from torch import nn
 from torch import Tensor
 import torch.nn.functional as F
-from Patch_layers import *
+from .Patch_layers import *
 
 class LKMS_Conv(nn.Module):
     def __init__(self, c_in: int, seq_len: int, context_window: int, patch_len: int, stride: int,

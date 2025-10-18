@@ -24,7 +24,7 @@ import math
 from scipy import sparse as sp
 from utils.utils import *
 from utils.get import *
-from model.LCDFormer_1 import *
+from model.DTG_LKNet import *
 import matplotlib.pyplot as plt
 import seaborn as sns
 from tqdm import tqdm

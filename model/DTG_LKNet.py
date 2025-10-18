@@ -1,3 +1,4 @@
+#https://github.com/jahaur1/DTG_LKNet
 from torch.nn import BatchNorm2d, Conv2d, ModuleList
 import sys
 import torch

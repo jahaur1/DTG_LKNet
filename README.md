@@ -1,4 +1,4 @@
-# DTG_LKNet
+# DTG-LKNet: dual spatio-temporal graphs and large-kernel convolutions network for traffic prediction
 
 ## Requirements
 

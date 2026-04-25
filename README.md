@@ -42,7 +42,16 @@ erf_conv.py is used to calculate and visualize the Effective Receptive Field (ER
 ### Cite
 If you find the paper useful, please cite as following:
 
-
+```bibtex
+@article{cao2026dtg,
+  title={DTG-LKNet: dual spatio-temporal graphs and large-kernel convolutions network for traffic prediction},
+  author={Cao, Jiahao and Tian, Yuan and Long, YangSheng and Wang, Peng and Xiao, Tong and Ye, Peng and Teng, Guoqing},
+  journal={PeerJ Computer Science},
+  volume={12},
+  pages={e3793},
+  year={2026},
+  publisher={PeerJ Inc.}
+}
 Thanks to the following open-source repositories for their valuable support in this work:
 
 - [LCDFormer](https://github.com/NanakiC/LCDFormer)

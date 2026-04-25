@@ -52,6 +52,7 @@ If you find the paper useful, please cite as following:
   year={2026},
   publisher={PeerJ Inc.}
 }
+
 Thanks to the following open-source repositories for their valuable support in this work:
 
 - [LCDFormer](https://github.com/NanakiC/LCDFormer)

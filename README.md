@@ -1,3 +1,9 @@
+[![Paper](https://img.shields.io/badge/Paper-PeerJ%20Computer%20Science-blue)](https://peerj.com/articles/cs-3793/)
+[![DOI](https://img.shields.io/badge/DOI-10.7717%2Fpeerj--cs.3793-green)](https://doi.org/10.7717/peerj-cs.3793)
+[![Python 3.9](https://img.shields.io/badge/python-3.9.2-blue.svg)](https://www.python.org/downloads/release/python-392/)
+[![Pytorch](https://img.shields.io/badge/PyTorch-1.13+-orange)](https://pytorch.org/)
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+
 # DTG-LKNet: dual spatio-temporal graphs and large-kernel convolutions network for traffic prediction
 
 ## Requirements

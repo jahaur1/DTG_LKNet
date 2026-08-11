@@ -5,7 +5,7 @@
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
 # DTG-LKNet: dual spatio-temporal graphs and large-kernel convolutions network for traffic prediction
-
+![DTG‑LKNet Overall Framework](./figure/main2.png "Figure1: Overall architecture of DTG‑LKNet")
 ## Requirements
 
 python.

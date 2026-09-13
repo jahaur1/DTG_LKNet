@@ -23,11 +23,13 @@ in traffic networks.
 - Evaluated on **PEMS03, PEMS04, and PEMS07** against 20 baseline models.
 ## Results
 
+## Results
+
 Performance comparison on PEMS03, PEMS04, and PEMS07:
 
-<p align="center">
-  <img src="assets/table2_results.png" width="900">
-</p>
+![DTG-LKNet Performance Comparison](./figure/table2_results.png "Table 2: Performance comparison on the three highway traffic flow datasets")
+
+*Table 2: Performance comparison with 20 baseline models. Best results are shown in bold and second-best results are underlined.*
 
 ## Requirements
 

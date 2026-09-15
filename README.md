@@ -29,8 +29,6 @@ Performance comparison on PEMS03, PEMS04, and PEMS07:
 
 ![DTG-LKNet Performance Comparison](./figure/results.png "Table 2: Performance comparison on the three highway traffic flow datasets")
 
-*Table 2: Performance comparison with 20 baseline models. Best results are shown in bold and second-best results are underlined.*
-
 ## Requirements
 
 python.
